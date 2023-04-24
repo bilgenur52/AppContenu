@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "titre": "developer",
+      "auteur": "typicode",
+      "contenu": "jeux de cartes",
+      "datemodif": "23/04/2023 12:08"
+    },
+    {
+      "id": 2,
+      "titre": "pilot",
+      "auteur": "typicode",
+      "contenu": "casque",
+      "datemodif": "23/04/2023 18:08"
+    },
+    {
+      "titre": "doctor",
+      "auteur": "gates",
+      "contenu": "doctor2",
+      "datemodif": "",
+      "id": 3
+    }
+  ]
+}

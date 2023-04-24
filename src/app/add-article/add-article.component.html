@@ -1,0 +1,17 @@
+
+<form [formGroup]="addArticle"  (ngSubmit)="SaveData()">
+    <div class="mb-3">
+      <label for="form-label">Titre</label>
+      <input type="text" class="form-control"  placeholder="entrez le titre" formControlName="titre">
+    </div>
+    <div class="mb-3">
+      <label for="form-label">Auteur</label>
+      <input type="text" class="form-control"  placeholder="Entrez l'auteur" formControlName="auteur">
+    </div>
+    <div class="mb-3">
+        <label for="form-label">Contenu</label>
+        <input type="text" class="form-control"  placeholder="Entrez le contenu" formControlName="contenu">
+      </div>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+  </form>
+  
